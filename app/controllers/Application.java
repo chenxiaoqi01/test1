@@ -27,5 +27,8 @@ public class Application extends Controller {
             index();
         }
 
+
+        render(name);
+
     }
 }
