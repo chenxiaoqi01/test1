@@ -19,9 +19,6 @@ public class Application extends Controller {
             flash.error("请输入密码！！！");
             index();
         }
-
-
         render(name);
-
     }
 }
