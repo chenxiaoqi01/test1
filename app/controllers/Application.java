@@ -10,7 +10,7 @@ public class Application extends Controller {
     }
 
     public static void add(@Required String name, @Required String pwd){
-
+        // valid
         if(name == null || name.length()==0){
             flash.error("请输入用户名！！！");
             index();
