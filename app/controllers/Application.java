@@ -7,6 +7,7 @@ import play.mvc.*;
 
 import java.sql.SQLException;
 import java.util.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 import models.*;
 
@@ -26,6 +27,6 @@ public class Application extends Controller {
             flash.error("请输入密码！！！");
             index();
         }
-
+        render(name);
     }
 }
