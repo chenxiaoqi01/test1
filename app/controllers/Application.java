@@ -1,14 +1,7 @@
 package controllers;
 
-import play.*;
 import play.data.validation.Required;
-import play.db.helper.JdbcHelper;
-import play.mvc.*;
-
-import java.sql.SQLException;
-import java.util.*;
-
-import models.*;
+import play.mvc.Controller;
 
 public class Application extends Controller {
 
