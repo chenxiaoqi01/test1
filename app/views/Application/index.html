@@ -1,0 +1,14 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+#{if flash.error}
+    <p style="color:red;">
+        ${flash.error}
+    </p>
+#{/if}
+
+<form action="@{Application.add}" method="get">
+    <input type="text" name="name" />
+    <input type="text" name="pwd" />
+    <input type="submit" value="提 交" />
+</form>
